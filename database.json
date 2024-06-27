@@ -1,0 +1,165 @@
+{
+    "user": [
+      {
+        "name": "Krupali Atkari",
+        "email": "krupali@nimapinfotech.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582337
+      },
+      {
+        "id": 3582359,
+        "name": "Shinchan",
+        "email": "shin@abc.com",
+        "gender": "Male",
+        "status": "Active"
+      },
+      {
+        "name": "Shashi Saini",
+        "email": "shashi_saini_do@johnson.test",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582361
+      },
+      {
+        "name": "Mrs. Rati ",
+        "email": "rati_mrs_desai@nikolaus.test",
+        "gender": "Female",
+        "status": "Inactive",
+        "id": 3582363
+      },
+      {
+        "name": "Shashi Saini ",
+        "email": "shashi_saini_do@johnson.test",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582365
+      },
+      {
+        "id": 3582368,
+        "name": "Balaaditya Dutta MD",
+        "email": "md_balaaditya_dutta@jacobs.test",
+        "gender": "Male",
+        "status": "Inactive"
+      },
+      {
+        "name": "Amrit Sharmaji",
+        "email": "amrit_sharma@pfeffer.test",
+        "gender": "Female",
+        "status": "Inactive",
+        "id": 3582369
+      },
+      {
+        "id": 3582370,
+        "name": "Chaten",
+        "email": "marar_chaten@mckenzie.test",
+        "gender": "Female",
+        "status": "Inactive"
+      },
+      {
+        "name": "krupali atkari",
+        "email": "krupali@nimapinfotech.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582371
+      },
+      {
+        "name": "Hello",
+        "email": "hello@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582372
+      },
+      {
+        "name": "lion",
+        "email": "lion@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582373
+      },
+      {
+        "name": "circle",
+        "email": "circle@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582374
+      },
+      {
+        "name": "Tiger",
+        "email": "tiger@gmail.com",
+        "gender": "Male",
+        "status": "Inactive",
+        "id": 3582376
+      },
+      {
+        "name": "Cat",
+        "email": "cat@gmail.com",
+        "gender": "Male",
+        "status": "Inactive",
+        "id": 3582377
+      },
+      {
+        "name": "Krupali Atkari",
+        "email": "krupali@nimapinfotech.cm",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582378
+      },
+      {
+        "name": "Selena Gomez",
+        "email": "selenagomez@gmail.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582379
+      },
+      {
+        "name": "test785785895",
+        "email": "test@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582380
+      },
+      {
+        "name": "test2",
+        "email": "test2@gmail.com",
+        "gender": "Female",
+        "status": "Inactive",
+        "id": 3582381
+      },
+      {
+        "name": "Bottle2333",
+        "email": "Bottle@gmail.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582382
+      },
+      {
+        "name": "Mobile",
+        "email": "Mobile@gmail.com",
+        "gender": "Male",
+        "status": "Active",
+        "id": 3582383
+      },
+      {
+        "name": "Light",
+        "email": "light@gmail.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582384
+      },
+      {
+        "name": "krupali atkari",
+        "email": "krupali@nimapinfotech.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582385
+      },
+      {
+        "name": "krupali atkari",
+        "email": "chinmay@nimapinfotech.com",
+        "gender": "Female",
+        "status": "Active",
+        "id": 3582386
+      }
+    ]
+  }

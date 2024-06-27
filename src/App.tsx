@@ -1,24 +1,58 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import DataTable from "react-data-table-component";
+import axios from "axios";
 
 function App() {
+  const [allData, setAllData] = useState<user[]>([]);
+
+  interface user {
+    id: number;
+    name: string;
+    email: string;
+    gender: string;
+    status: string;
+  }
+
+  interface Column {
+    name: string;
+    selector?: (row: user) => string | number;
+    cell?: (row: user) => React.ReactNode;
+    sortable?: boolean;
+  }
+
+  const columns: Column[] = [
+    {
+      name: "Name",
+      cell: (row: user) => <div>{row.name}</div>,
+    },
+    {
+      name: "Email",
+      cell: (row: user) => <div>{row.email}</div>,
+    },
+    {
+      name: "Gender",
+      cell: (row: user) => <div>{row.gender}</div>,
+    },
+    {
+      name: "Status",
+      cell: (row: user) => <div>{row.status}</div>,
+    },
+  ];
+
+  const getAllUserList = () => {
+    axios.get("http://localhost:8000/user").then((response) => {
+      setAllData(response.data);
+    });
+  };
+
+  useEffect(() => {
+    getAllUserList();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataTable columns={columns} data={allData} />
     </div>
   );
 }
